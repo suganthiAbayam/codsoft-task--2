@@ -1,0 +1,120 @@
+@import url('https://fonts.google.com/specimen/Roboto');
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.container{
+    width:100%;
+    margin:auto;
+}
+nav{
+    height:200px;
+}
+nav h1{
+    float:left;
+    line-height:100px;
+    font-size:35px;
+    font-size:inline;
+    color:rgb(231, 188, 15);
+    top:50%;
+    left:50%;
+}
+nav ul{
+    float:right;
+    line-height:30px;
+}
+nav ul li{
+    display:inline-block;
+    list-style:none;
+    padding:0px 5px;
+    color:rgb(32, 29, 21)
+}
+nav ul li a{
+    color:rgba(195, 169, 52, 0.957)7;
+    text-decoration:none;
+    border-radius:5px;
+    padding:15px 10px;
+    height:15px;
+
+}
+nav ul li a:hover{
+
+    background-color:rgba(255, 167, 16, 0.737);
+    transition:0.5s ease;
+}
+nav ul li .active{
+    background-color:rgb(241, 202, 117);
+}
+.article{
+    color:rgb(243, 239, 242);
+    font-size:40;
+    outline:rgb(69, 60, 41);
+    font-style:initial;
+    text-align: center;  
+}
+.new{
+    color:rgb(78, 60, 0);
+    text-align:center;
+    font-style:italic;
+    font-size:15;
+    padding: 15  15;
+    line-height: 20px;
+
+ 
+   
+}
+.container{
+   background-color: rgb(50, 134, 139);
+}
+.column{
+    height: 70px;
+    text-align:center;
+    font-style:italic;
+    font-size:15;
+    align-items: end;
+    color: rgb(4, 28, 95);
+    background-color: blueviolet;
+    margin-bottom: 30%;
+
+}
+.next{
+    padding:150 30;
+    font-style: normal;
+    color:rgb(90, 11, 72)
+
+    
+}
+.about{
+    font-size: 20;
+    font-style: italic;
+    color:rgb(151, 5, 76);
+    text-align: center;
+    padding:5px 5px;
+    
+    border-radius:10px;
+    word-spacing: 10px;
+    
+    
+}
+.ress{
+    background-image: url(../image/re7);
+    text-align: center;
+    bottom: 75px;
+   
+    
+}
+.gg{
+    
+    font-size: 20;
+    padding:50 50;
+    color: rgba(69, 32, 127, 0.765);
+    font-style: italic;
+    display:inline-block;
+    transition-duration: 0.5s ease;
+   
+    line-height:50px;
+    
+    
+}
